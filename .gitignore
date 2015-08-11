@@ -1,0 +1,9 @@
+# editors
+*.swp
+*.swe
+*~
+*.un\~
+
+dist/
+node_modules/
+log/

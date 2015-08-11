@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<meta content="yes" name="apple-touch-fullscreen"/>
+<meta content="telephone=no" name="format-detection"/>
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="MobileOptimized" content="320"/>
+<title>mobile</title>
+<base href="http://192.168.1.177:3000/">
+<script>
+    var ROOT_URL = 'http://192.168.1.177:3000/';
+    var seajsEnv = {
+        'mode': 'development',
+        'debug': true
+    };
+</script>
+<script src="public/libs/js/sea.js"></script>
+<script src="public/libs/js/zepto.min.js"></script>
+<script src="public/js/config.js"></script>
+<link rel="stylesheet" href="public/css/style.min.css">
+<style>
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    font-family: Microsoft YaHei;
+}    
+.container{
+    padding: 1em;
+}
+.huodong{
+    border-bottom: 1px solid #dcdcdc;
+    margin-bottom: 1em;
+}
+.huodong p{
+    margin-top: .5em;
+}
+.nav{
+    padding: .5em 0;
+    text-align: center;
+    background-color: #272626;
+    color: #fff;
+}
+select{
+    width: 100%;
+}
+</style>
+</head>
+
+<body>
+<div class="nav">
+    哈哈哈
+</div>
+<div class="container">
+    <select>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+    </select>
+</div>
+<div class="container">
+    <div class="huodong">
+        <img src="public/images/img.jpg" width="100%">
+        <small>2015-02-03  19:45:21</small><br>
+        <p>小伙伴们，快来抢笑着赚的现金红包啦！</p>
+    </div>
+    <div class="huodong">
+        <img src="public/images/img.jpg" width="100%">
+        <small>2015-02-03  19:45:21</small><br>
+        <p>小伙伴们，快来抢笑着赚的现金红包啦！</p>
+    </div>
+    <div class="huodong">
+        <img src="public/images/img.jpg" width="100%">
+        <small>2015-02-03  19:45:21</small><br>
+        <p>小伙伴们，快来抢笑着赚的现金红包啦！</p>
+    </div>
+    <div class="huodong">
+        <img src="public/images/img.jpg" width="100%">
+        <small>2015-02-03  19:45:21</small><br>
+        <p>小伙伴们，快来抢笑着赚的现金红包啦！</p>
+    </div>
+</div>
+
+<script>
+    seajs.use("index")
+</script>
+</body>
+</html>

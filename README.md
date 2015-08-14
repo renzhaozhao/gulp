@@ -1,17 +1,19 @@
-#Mobile
-个人简历
+#个人简历
 
-袁梓民的个人简历
+
+##任钊的个人简历
 个人信息
 
 姓名：袁梓民
 
 性别：男
 
-学校专业：中山大学软件学院
+学校：哈尔滨商业大学
 
 blog：http://www.cnblogs.com/yuanzm
 技术能力
+
+    是打发到阿什顿啊
 
 专注并且热爱web开发，熟练掌握JavaScript、HTMl、CSS以及JavaScript框架来搭建web应用。了解原生JavaScript和JavaScript类库的使用。
 

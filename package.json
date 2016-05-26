@@ -1,30 +1,20 @@
 {
-	"name": "RUI",
-	"version": "0.1.1",
-	"title": "Renzhao's UI for XM F2E",
-	"description": "Renzhao's UI Framework",
-	"private": true,
-	"homepage": "",
-	"authors": "Renzhao",
-	"copyright": "/*! Tomcat360.com (c) 2015 \n\tAuthor: Renzhao\n*/\n",
-
-	"devDependencies": {
-		"express": "~4.2.0",
-		
-		"gulp": "*",
-		"gulp-util": "*",
-		"through2": "*",
-		"gulp-less": "3.*",
-		"gulp-autoprefixer": "2.*",
-		"gulp-minify-css": "0.*",
-
-		"gulp-watch": "4.*",
-		"gulp-clone": "1.*",
-		"gulp-rename": "1.*",
-		"gulp-plumber": "0.*",
-
-		"gulp-seajs-transport": "0.*",
-
-		"gulp-uglify": "*"
-	}
+  "name": "RUI",
+  "version": "1.0.0",
+  "description": "renzhao's gulp",
+  "author": "renzhao",
+  "copyright": "/*! wyunbanking.com (c) 2016 \n\tAuthor: Renzhao\n*/\n",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-less": "^3.1.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.3",
+    "gulp-util": "^3.0.7",
+    "through2": "^2.0.1"
+  }
 }

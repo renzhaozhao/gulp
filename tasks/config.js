@@ -17,7 +17,8 @@ module.exports = {
                 "ie 9",
                 "ie 8",
                 "bb 10",
-                "android 4"
+                "android 4",
+                "ff 4"
             ]
         },
         rename: {
